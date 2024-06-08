@@ -202,6 +202,7 @@ header input{
 }
 .pehla{
     width: 700px;
+    height: 200px;
 }
 .pehla p{
     margin-top: 40px;
@@ -222,6 +223,23 @@ header input{
     margin-left: 20px;
     margin-bottom: 20px;
 }
+.whatsapp2{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(118, 212, 118);
+    margin-top: 30px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    top: -80px;
+    left: 300px;  
+}
 .dusri{
     width: 400px;
 }
@@ -231,8 +249,10 @@ header input{
 }
 footer{
     width: 100%;
-    background: linear-gradient(90deg, rgba(149,116,4,1) 37%, rgba(147,116,8,1) 74%, rgba(241,148,20,1) 100%);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 37%, rgb(0, 10, 10) 74%, rgb(0, 15, 20) 100%);
     background-size: cover;
+    /* background-color: black; */
+    color: white;
     height: 400px;
     margin-top: 50px;
     display: flex;
@@ -314,7 +334,7 @@ footer{
     align-items: center;
 }
 .left{
-    width: 50%;
+    width: 45%;
     margin-top: 40px;
 }
 .left p{
@@ -325,11 +345,17 @@ footer{
 
 }
 .right{
-    width: 40%;
+    width: 46%;
 }
 .right img{
     border-radius: 20px;
     margin-top: 100px;
+    overflow: hidden;
+    transition: 2s;
+}
+.right img:hover{
+    transform: scale(1.10);
+    overflow: hidden;
 }
 .line-5{
     width: 84%;
