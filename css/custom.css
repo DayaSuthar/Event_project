@@ -1,0 +1,366 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: inherit;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: aliceblue;
+    width: 100%;
+    box-shadow: 0px 0px 5px 5px #ccc;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px
+}
+.nav ul{
+    display: flex;
+    margin-left: 200px;
+    gap: 80px;
+}
+.nav ul li{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+header input{
+    padding: 15px 30px;
+    border-radius: 10px;
+    /* background-color: #f2eded; */
+    border: 1px solid rgb(213, 211, 211);
+    outline: none;
+    margin-left: 200px;
+}
+.mid-1{
+    width: 100%;
+    position: relative;
+    top: 105px;
+}
+.mid-1 img{
+    width: 100%;
+    height: 600px;
+}
+.mid-2{
+    width: 84%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(250 248 248);
+}
+.mid-2 h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    font-style: italic;
+}
+.mid-2 p{
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-justify: auto;
+    line-height: 25px;
+}
+.mid-3{
+    width: 84%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.mid3-1{
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: rgb(185, 161, 106);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 30px;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.mid3-1 i{
+    margin-bottom: 25px;
+}
+.mid-4{
+    width: 100%;
+    /* height: 500px; */
+    background: linear-gradient(90deg, rgba(149,116,4,1) 37%, rgba(147,116,8,1) 74%, rgba(241,148,20,1) 100%);
+    margin-top: 100px;
+}
+.part-1{
+    width: 84%;
+    margin: auto;
+    color: aliceblue;
+}
+.part-1 h1{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 50px;
+}
+.part-1 p{
+    letter-spacing: 1px;
+    font-size: 16.5px;
+    margin-top: 30px;
+}
+.part-2{
+    width: 84%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.image{
+    width: 350px;
+    height: 550px;
+    background-color: rgb(247, 247, 248);
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 5px goldenrod;
+    margin-bottom: 50px;
+}
+.image img{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    transition: 1s;
+}
+.image h4{
+    color: goldenrod;
+    font-size: 25px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.image h5{
+    color: rgb(157, 228, 50);
+    padding-left: 20px;
+    font-size: 16px;
+    margin-bottom: 5px;
+
+}
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.hotels{
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hotels i{
+    font-size: 26px;
+    margin-bottom: 8px;
+   
+}
+.call{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.tool{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tool i{
+    color: rgb(72, 137, 72);
+    margin-bottom: 5px;
+}
+.part-3{
+    width: 84%;
+    margin: auto;
+    background-color: rgb(236, 236, 231);
+    /* height: 100px; */
+    margin-top: 50px;
+    display: flex;
+    border-radius: 20px;
+}
+.pehla{
+    width: 700px;
+}
+.pehla p{
+    margin-top: 40px;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.whatsapp{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(118, 212, 118);
+    margin-top: 30px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.dusri{
+    width: 400px;
+}
+.dusri img{
+    width: 100%;
+    height: 300px;
+}
+footer{
+    width: 100%;
+    background: linear-gradient(90deg, rgba(149,116,4,1) 37%, rgba(147,116,8,1) 74%, rgba(241,148,20,1) 100%);
+    background-size: cover;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    width: 400px;
+    height: 100%;
+    
+}
+.about h2{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.about p{
+    margin-top: 20px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.links{
+    width: 400px;
+}
+.links h2{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.links ul li{
+    margin-top: 10px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.payment{
+    width: 100%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 20px; */
+}
+.payment img{
+    width: 200px;
+    height: 100px;
+}
+.image img:hover{
+    transform: scale(1.02);
+    overflow: hidden;
+}
+.nav ul li:hover{
+    color: rgb(17, 103, 190);    
+}
+.line-2{
+    width: 100%;
+    position: relative;
+    top: 120px;
+    text-align: center;
+    cursor: pointer;
+    height: 50px;
+}
+.line-3{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    position: absolute;
+    top: 170px;
+}
+.line-3 h2{
+    font-size: 40px;
+}
+.line-4{
+    width: 84%;
+    margin: auto;
+    /* height: 50px; */
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    width: 50%;
+    margin-top: 40px;
+}
+.left p{
+    padding-top: 30px;
+    text-align: justify;
+    font-size: large;
+    letter-spacing: 1px;
+
+}
+.right{
+    width: 40%;
+}
+.right img{
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.line-5{
+    width: 84%;
+    margin: auto;
+    height: 50px;
+    margin-top: 80px;
+    /* display: flex; */
+}
+.line5-1{
+    width: 50%;
+    margin-top: 20px;
+    float: left;
+}
+.line5-1 ul li{
+    text-align: left; 
+    margin-top: 10px;
+    list-style: disc;
+    margin-left: 5px;
+}
+.line5-2{
+    width: 40%;
+    margin-top: 20px;
+    float: right;
+}
+.line5-2 ul li{
+    text-align: left; 
+    margin-top: 10px;
+    list-style: disc;
+    margin-left: 5px;
+}
+.line5-2 ul{
+    margin-left: 100px;
+}
+
